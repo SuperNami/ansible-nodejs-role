@@ -1,0 +1,9 @@
+---
+- name: nodejs
+  hosts: all
+  user: root
+  become: true
+  roles:
+  - nodejs
+  vars_files:
+  - vars/nodejs.yml
